@@ -1,8 +1,9 @@
 # splunkCaseTool
 Splunk Computer Aided software Engg Tool
 
+Software used : Python, Tkinter (https://docs.python.org/3/library/tkinter.html)  Splunk Search utility 
 
-This   is a  CASE tool for Splunk search utility, where it genrate entire Search script  such as select, filter, group by, and  rename commands based on file selected from your folders.
+This   is a  CASE tool for Splunk search utility (https://docs.splunk.com/File:8.0.0_new_searchView-compressor.png), where it genrate entire Search script  such as select, filter, group by, and  rename commands based on file selected from your folders.
 
 
 ![Main Screen](/splunkcasetool.PNG)
@@ -16,3 +17,6 @@ Sort by popup has option to change Code generated the sort order from descdnign 
 
 Where by popup can be sued to change the default != to = , and or to and condition
 ![Popupmenu For text](/popupmenuhiForTextboxwhereby.PNG)
+
+replace using Dialog box can be sued to change text content
+![Popupmenu For text](/replaceusingdialog.PNG)
