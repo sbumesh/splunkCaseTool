@@ -12,3 +12,7 @@ text box utility popup to copy text from text box , or select all and even pase 
 
 Sort by popup has option to change Code generated the sort order from descdnign to ascending
 ![Popupmenu For text](/popupmenuhiForTextboxSortBY.PNG)
+
+
+Where by popup can be sued to change the default != to = , and or to and condition
+![Popupmenu For text](/popupmenuhiForTextboxwhereby.PNG)
