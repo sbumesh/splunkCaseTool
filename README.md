@@ -1,3 +1,3 @@
 # splunkCaseTool
 Splunk Computer Aided software Engg Tool
-![]/images/splunk.pgn
+![]/images/splunkcase tool.PNG
