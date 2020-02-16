@@ -1,5 +1,7 @@
 # splunkCaseTool
 Splunk Computer Aided software Engg Tool
+
+
 This   is a  CASE tool for Splunk search utility, where it genrate entire Search script  such as select, filter, group by, and  rename commands based on file selected from your folders.
 
 
