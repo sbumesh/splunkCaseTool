@@ -7,7 +7,7 @@ This   is a  CASE tool for Splunk search utility (https://docs.splunk.com/File:8
 
 Input: 
 
-Splunk output :
+Splunk output :![]()
 
 ![Main Screen](/splunkcasetool.PNG)
 
