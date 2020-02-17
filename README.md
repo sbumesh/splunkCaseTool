@@ -20,7 +20,7 @@ Splunk output :![Case tool output](splunkCaseToolutput.txt)
 
 ![Main Screen](/splunkcasetool.PNG)
 
- #                   Textbox Popup Menu(https://developer.android.com/reference/android/widget/PopupMenu) 
+ #                   Textbox Popup Menu
 
 left click on text area to display popup menu(https://developer.android.com/reference/android/widget/PopupMenu) related for textBox with additional commans to assist.
 text box utility popup to copy text from text box , or select all and even pase from clipboard, it also has option to wrap long text.
