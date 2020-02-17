@@ -5,9 +5,9 @@ Software used : Python, Tkinter (https://docs.python.org/3/library/tkinter.html)
 
 This   is a  CASE tool for Splunk search utility (https://docs.splunk.com/File:8.0.0_new_searchView-compressor.png), where it generates entire Search command (https://docs.splunk.com/Documentation/SplunkInvestigate/Current/SearchReference/SearchCommandExamples)  such as select, filter, group by, and  rename commands based on file selected from your folders.
 
-Input: 
+Input: ![Input csv file](/imdb_Internet_Movies_Database.csv)
 
-Splunk output :![]()
+Splunk output :![Case tool output] (splunkCaseToolutput.txt)
 
 ![Main Screen](/splunkcasetool.PNG)
 
