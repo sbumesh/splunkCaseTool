@@ -1,11 +1,12 @@
 #                                  SplunkCaseTool
 Splunk Computer Aided software Engg Tool
 
-#  Software used : Python, 
+#  Software used : 
+                Python, 
                 Tkinter (https://docs.python.org/3/library/tkinter.html)  
                 Splunk Search utility (https://docs.splunk.com/File:8.0.0_new_searchView-compressor.png)
 
-This   is a  CASE tool for Splunk search utility (https://docs.splunk.com/File:8.0.0_new_searchView-compressor.png), where it generates entire Search command (https://docs.splunk.com/Documentation/SplunkInvestigate/Current/SearchReference/SearchCommandExamples)  such as select, filter, group by, and  rename commands based on file selected from your folders.
+# CASE tool for Splunk search utility (https://docs.splunk.com/File:8.0.0_new_searchView-compressor.png), where it generates entire Search command (https://docs.splunk.com/Documentation/SplunkInvestigate/Current/SearchReference/SearchCommandExamples)  such as select, filter, group by, and  rename commands based on file selected from your folders.
                   
  #                   Case Tool Output  
                   
