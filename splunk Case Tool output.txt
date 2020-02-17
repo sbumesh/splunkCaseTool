@@ -1,0 +1,40 @@
+
+ |table  
+       country                      , 
+       beer_servings                , 
+       spirit_servings              , 
+       wine_servings                , 
+       total_litres_of_pure_alcohol , 
+       continent                    , 
+
+ |where  
+       country                       	 != ""  	 Or  
+       beer_servings                 	 != "0"  	 Or  
+       spirit_servings               	 != "0"  	 Or  
+       wine_servings                 	 != "0"  	 Or  
+       total_litres_of_pure_alcohol  	 != "0"  	 Or  
+       continent                     	 != ""  	 
+ |rename 
+       country                       	 As  country                       	 ,  
+       beer_servings                 	 As  beer_servings                 	 ,  
+       spirit_servings               	 As  spirit_servings               	 ,  
+       wine_servings                 	 As  wine_servings                 	 ,  
+       total_litres_of_pure_alcohol  	 As  total_litres_of_pure_alcohol  	 ,  
+       continent                     	 As  continent                     	
+ |sort   
+       country                        desc  ,  
+       beer_servings                  desc  ,  
+       spirit_servings                desc  ,  
+       wine_servings                  desc  ,  
+       total_litres_of_pure_alcohol   desc  ,  
+       continent                      desc 
+ |Stats   
+       sum(beer_servings)                 ,  count(beer_servings)
+       sum(spirit_servings)               ,  count(spirit_servings)
+       sum(wine_servings)                 ,  count(wine_servings)
+       sum(total_litres_of_pure_alcohol)  ,  count(total_litres_of_pure_alcohol)
+ 
+  by 
+       country                       ,   
+      continent                     ,   
+
