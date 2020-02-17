@@ -17,7 +17,7 @@ CASE tool for Splunk search utility (https://docs.splunk.com/File:8.0.0_new_sear
                   
 1) Input: ![Input csv file](/imdb_Internet_Movies_Database.csv)
 
-2 ) Splunk output :![Case tool output](splunkCaseToolutput.txt)
+2 ) Splunk output :![Case tool output](splunkCaseToolOutputwithRAwdata.txt)
 
  #                  Gui Features   
 
