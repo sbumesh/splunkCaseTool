@@ -30,5 +30,5 @@ Sort by popup has option to change Code generated the sort order from descndign 
 Where by popup can be used  to change the default != to = , and or to and condition
 ![Popupmenu For text](/popupmenuhiForTextboxwhereby.PNG)
 
-replace using Dialog box can be sued to change text content
+Replace using Dialog box :  can be used  to change text content in the text box area.
 ![Popupmenu For text](/replaceusingdialog.PNG)
