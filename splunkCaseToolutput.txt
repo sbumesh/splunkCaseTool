@@ -1,0 +1,150 @@
+
+ |table  
+       color                     , 
+       director_name             , 
+       num_critic_for_reviews    , 
+       duration                  , 
+       director_facebook_likes   , 
+       actor_3_facebook_likes    , 
+       actor_2_name              , 
+       actor_1_facebook_likes    , 
+       gross                     , 
+       genres                    , 
+       actor_1_name              , 
+       movie_title               , 
+       num_voted_users           , 
+       cast_total_facebook_likes , 
+       actor_3_name              , 
+       facenumber_in_poster      , 
+       plot_keywords             , 
+       movie_imdb_link           , 
+       num_user_for_reviews      , 
+       language                  , 
+       country                   , 
+       content_rating            , 
+       budget                    , 
+       title_year                , 
+       actor_2_facebook_likes    , 
+       imdb_score                , 
+       aspect_ratio              , 
+       movie_facebook_likes      , 
+
+ |where  
+       color                      	 != ""  	 Or  
+       director_name              	 != ""  	 Or  
+       num_critic_for_reviews     	 != "0"  	 Or  
+       duration                   	 != "0"  	 Or  
+       director_facebook_likes    	 != "0"  	 Or  
+       actor_3_facebook_likes     	 != "0"  	 Or  
+       actor_2_name               	 != ""  	 Or  
+       actor_1_facebook_likes     	 != "0"  	 Or  
+       gross                      	 != "0"  	 Or  
+       genres                     	 != ""  	 Or  
+       actor_1_name               	 != ""  	 Or  
+       movie_title                	 != ""  	 Or  
+       num_voted_users            	 != "0"  	 Or  
+       cast_total_facebook_likes  	 != "0"  	 Or  
+       actor_3_name               	 != ""  	 Or  
+       facenumber_in_poster       	 != "0"  	 Or  
+       plot_keywords              	 != ""  	 Or  
+       movie_imdb_link            	 != ""  	 Or  
+       num_user_for_reviews       	 != "0"  	 Or  
+       language                   	 != ""  	 Or  
+       country                    	 != ""  	 Or  
+       content_rating             	 != ""  	 Or  
+       budget                     	 != "0"  	 Or  
+       title_year                 	 != "0"  	 Or  
+       actor_2_facebook_likes     	 != "0"  	 Or  
+       imdb_score                 	 != "0"  	 Or  
+       aspect_ratio               	 != "0"  	 Or  
+       movie_facebook_likes       	 != "0"  	 
+ |rename 
+       color                      	 As  color                      	 ,  
+       director_name              	 As  director_name              	 ,  
+       num_critic_for_reviews     	 As  num_critic_for_reviews     	 ,  
+       duration                   	 As  duration                   	 ,  
+       director_facebook_likes    	 As  director_facebook_likes    	 ,  
+       actor_3_facebook_likes     	 As  actor_3_facebook_likes     	 ,  
+       actor_2_name               	 As  actor_2_name               	 ,  
+       actor_1_facebook_likes     	 As  actor_1_facebook_likes     	 ,  
+       gross                      	 As  gross                      	 ,  
+       genres                     	 As  genres                     	 ,  
+       actor_1_name               	 As  actor_1_name               	 ,  
+       movie_title                	 As  movie_title                	 ,  
+       num_voted_users            	 As  num_voted_users            	 ,  
+       cast_total_facebook_likes  	 As  cast_total_facebook_likes  	 ,  
+       actor_3_name               	 As  actor_3_name               	 ,  
+       facenumber_in_poster       	 As  facenumber_in_poster       	 ,  
+       plot_keywords              	 As  plot_keywords              	 ,  
+       movie_imdb_link            	 As  movie_imdb_link            	 ,  
+       num_user_for_reviews       	 As  num_user_for_reviews       	 ,  
+       language                   	 As  language                   	 ,  
+       country                    	 As  country                    	 ,  
+       content_rating             	 As  content_rating             	 ,  
+       budget                     	 As  budget                     	 ,  
+       title_year                 	 As  title_year                 	 ,  
+       actor_2_facebook_likes     	 As  actor_2_facebook_likes     	 ,  
+       imdb_score                 	 As  imdb_score                 	 ,  
+       aspect_ratio               	 As  aspect_ratio               	 ,  
+       movie_facebook_likes       	 As  movie_facebook_likes       	
+ |sort   
+       color                       desc  ,  
+       director_name               desc  ,  
+       num_critic_for_reviews      desc  ,  
+       duration                    desc  ,  
+       director_facebook_likes     desc  ,  
+       actor_3_facebook_likes      desc  ,  
+       actor_2_name                desc  ,  
+       actor_1_facebook_likes      desc  ,  
+       gross                       desc  ,  
+       genres                      desc  ,  
+       actor_1_name                desc  ,  
+       movie_title                 desc  ,  
+       num_voted_users             desc  ,  
+       cast_total_facebook_likes   desc  ,  
+       actor_3_name                desc  ,  
+       facenumber_in_poster        desc  ,  
+       plot_keywords               desc  ,  
+       movie_imdb_link             desc  ,  
+       num_user_for_reviews        desc  ,  
+       language                    desc  ,  
+       country                     desc  ,  
+       content_rating              desc  ,  
+       budget                      desc  ,  
+       title_year                  desc  ,  
+       actor_2_facebook_likes      desc  ,  
+       imdb_score                  desc  ,  
+       aspect_ratio                desc  ,  
+       movie_facebook_likes        desc 
+ |Stats   
+       sum(num_critic_for_reviews)     ,  count(num_critic_for_reviews)
+       sum(duration)                   ,  count(duration)
+       sum(director_facebook_likes)    ,  count(director_facebook_likes)
+       sum(actor_3_facebook_likes)     ,  count(actor_3_facebook_likes)
+       sum(actor_1_facebook_likes)     ,  count(actor_1_facebook_likes)
+       sum(gross)                      ,  count(gross)
+       sum(num_voted_users)            ,  count(num_voted_users)
+       sum(cast_total_facebook_likes)  ,  count(cast_total_facebook_likes)
+       sum(facenumber_in_poster)       ,  count(facenumber_in_poster)
+       sum(num_user_for_reviews)       ,  count(num_user_for_reviews)
+       sum(budget)                     ,  count(budget)
+       sum(title_year)                 ,  count(title_year)
+       sum(actor_2_facebook_likes)     ,  count(actor_2_facebook_likes)
+       sum(imdb_score)                 ,  count(imdb_score)
+       sum(aspect_ratio)               ,  count(aspect_ratio)
+       sum(movie_facebook_likes)       ,  count(movie_facebook_likes)
+ 
+  by 
+       color                      ,   
+      director_name              ,   
+      actor_2_name               ,   
+      genres                     ,   
+      actor_1_name               ,   
+      movie_title                ,   
+      actor_3_name               ,   
+      plot_keywords              ,   
+      movie_imdb_link            ,   
+      language                   ,   
+      country                    ,   
+      content_rating             ,   
+
