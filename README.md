@@ -7,7 +7,7 @@ This   is a  CASE tool for Splunk search utility (https://docs.splunk.com/File:8
 
 Input: ![Input csv file](/imdb_Internet_Movies_Database.csv)
 
-Splunk output :![Case tool output] (splunkCaseToolutput.txt)
+Splunk output :![Case tool output](splunkCaseToolutput.txt)
 
 ![Main Screen](/splunkcasetool.PNG)
 
